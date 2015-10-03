@@ -39,7 +39,7 @@
         test:dev_layout_width="@dimen/movable_width"
         test:endX="@dimen/page_two_cloud_endX"
         test:endY="@dimen/page_two_cloud_endY"
-        test:image="@drawable/one_cloud"
+        test:image="@drawable/watch"
         test:show_layout_dev="false"
         test:startX_right="true"
         test:startY_top="true" />
@@ -50,11 +50,9 @@
         android:layout_height="wrap_content"
         android:alpha="1"
         android:tag="movableSecondCloud"
-        test:dev_layout_height="@dimen/movable_height"
-        test:dev_layout_width="@dimen/movable_width"
         test:endX="@dimen/page_two_phone_endX"
         test:endY="@dimen/page_two_phone_endY"
-        test:image="@drawable/second_call"
+        test:image="@drawable/message"
         test:show_layout_dev="false"
         test:startX_left="true"
         test:startY_bottom="true" />
