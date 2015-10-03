@@ -6,7 +6,7 @@ Usage e.g - OnBoard Screen, Tutorial Screen
 
 <b>Demo</b>
 
-[linkname] https://www.youtube.com/watch?v=Uq-ntxavHvI
+[linkname] https://www.youtube.com/watch?v=B0sHqMcJkfQ
 
 
 <b>Usage</b>
