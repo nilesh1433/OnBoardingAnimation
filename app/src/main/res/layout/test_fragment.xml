@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:test="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+
+    <ImageView
+        android:id="@+id/secondElements"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/page_two_elements_top"
+        android:src="@drawable/third_elements" />
+
+
+    <com.onboardinganimation.onboardlib.MovableView
+        android:id="@+id/suitcaseIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:alpha="1"
+        android:tag="startSuitCaseIcon"
+        test:endX_center_horizontal="true"
+        test:endY="@dimen/page_two_suitcase_endY"
+        test:image="@drawable/iphone"
+        test:show_layout_dev="false"
+        test:startX_left="true"
+        test:startY="@dimen/page_two_suitcase_startY" />
+
+    <com.onboardinganimation.onboardlib.MovableView
+        android:id="@+id/secondCloud"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="1"
+        test:dev_layout_height="@dimen/movable_height"
+        test:dev_layout_width="@dimen/movable_width"
+        test:endX="@dimen/page_two_cloud_endX"
+        test:endY="@dimen/page_two_cloud_endY"
+        test:image="@drawable/one_cloud"
+        test:show_layout_dev="false"
+        test:startX_right="true"
+        test:startY_top="true" />
+
+    <com.onboardinganimation.onboardlib.MovableView
+        android:id="@+id/phoneEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="1"
+        android:tag="movableSecondCloud"
+        test:dev_layout_height="@dimen/movable_height"
+        test:dev_layout_width="@dimen/movable_width"
+        test:endX="@dimen/page_two_phone_endX"
+        test:endY="@dimen/page_two_phone_endY"
+        test:image="@drawable/second_call"
+        test:show_layout_dev="false"
+        test:startX_left="true"
+        test:startY_bottom="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/msg_margin_bottom"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/secondMsgTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/suitcaseIconEnd"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/msg_title_spacing"
+            android:layout_marginTop="@dimen/msg_margin_bottom"
+            android:gravity="center_horizontal"
+            android:text="@string/page_two_msg_title"
+            android:textColor="@color/brand_color"
+            android:textSize="@dimen/msg_text_title"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/secondMsgOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/secondMsgTitle"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/msg_margin_bottom"
+            android:gravity="center_horizontal"
+            android:text="@string/page_two_msg_one"
+            android:textSize="@dimen/msg_text_size"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/secondMsgTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/secondMsgOne"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/spacing_between_lines"
+            android:gravity="center_horizontal"
+            android:text="@string/page_two_msg_two"
+            android:textSize="@dimen/msg_text_size"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/secondMsgThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/secondMsgTwo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/spacing_between_lines"
+            android:gravity="center_horizontal"
+            android:text="@string/page_two_msg_three"
+            android:textSize="@dimen/msg_text_size"
+            android:visibility="visible" />
+
+    </LinearLayout>
+</RelativeLayout>

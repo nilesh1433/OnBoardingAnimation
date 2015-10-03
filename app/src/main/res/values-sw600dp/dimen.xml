@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="page_two_cloud_endX">350dp</dimen>
+    <dimen name="page_two_cloud_endY">220dp</dimen>
+    <dimen name="page_two_phone_endX">210dp</dimen>
+    <dimen name="page_two_phone_endY">340dp</dimen>
+    <dimen name="page_two_suitcase_startY">200dp</dimen>
+    <dimen name="page_two_suitcase_endY">200dp</dimen>
+    <dimen name="page_two_elements_top">230dp</dimen>
+
+    <dimen name="page_one_cloud_endX">180dp</dimen>
+    <dimen name="page_one_cloud_endY">250dp</dimen>
+    <dimen name="page_one_calendar_endX">360dp</dimen>
+    <dimen name="page_one_calendar_endY">260dp</dimen>
+    <dimen name="page_one_wallet_endX">180dp</dimen>
+    <dimen name="page_one_wallet_endY">310dp</dimen>
+    <dimen name="page_one_seat_icon_startY">200dp</dimen>
+    <dimen name="page_one_seat_icon_endY">200dp</dimen>
+    <dimen name="page_one_elements_top">210dp</dimen>
+
+    <dimen name="page_three_chat_endX">365dp</dimen>
+    <dimen name="page_three_chat_endY">245dp</dimen>
+    <dimen name="page_three_pin_endX">200dp</dimen>
+    <dimen name="page_three_pin_endY">315dp</dimen>
+    <dimen name="page_three_phone_startY">200dp</dimen>
+    <dimen name="page_three_phone_endY">200dp</dimen>
+    <dimen name="page_three_elements_top">230dp</dimen>
+
+    <!-- wallet -->
+    <dimen name="er_star_margin_top">200dp</dimen>
+    <dimen name="er_wallet_icon_startY">205dp</dimen>
+    <dimen name="er_refund_coin_endX">305dp</dimen>
+    <dimen name="er_refund_coin_endY">245dp</dimen>
+    <dimen name="er_refund_arrow_endX">190dp</dimen>
+    <dimen name="er_refund_arrow_endY">270dp</dimen>
+
+    <dimen name="ec_star_margin_top">200dp</dimen>
+    <dimen name="ec_star_margin_left">280dp</dimen>
+    <dimen name="ec_cart_startY">205dp</dimen>
+    <dimen name="ec_tick_endX">300dp</dimen>
+    <dimen name="ec_tick_endY">355dp</dimen>
+    <dimen name="ec_right_speed_endX">330dp</dimen>
+    <dimen name="ec_right_speed_startY">240dp</dimen>
+    <dimen name="ec_left_speed_endX">225dp</dimen>
+    <dimen name="ec_left_speed_startY">305dp</dimen>
+
+    <dimen name="erew_star_margin_top">220dp</dimen>
+    <dimen name="erew_reward_icon_startY">205dp</dimen>
+    <dimen name="erew_rupee_endX">310dp</dimen>
+    <dimen name="erew_rupee_endY">190dp</dimen>
+    <dimen name="erew_speed_right_startY">310dp</dimen>
+    <dimen name="erew_speed_right_startX">340dp</dimen>
+    <dimen name="erew_speed_left_startY">285dp</dimen>
+    <dimen name="erew_speed_left_endX">215dp</dimen>
+
+</resources>

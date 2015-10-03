@@ -1,0 +1,24 @@
+<resources>
+    <declare-styleable name="AutoOnBoardAnimation">
+        <attr name="startX" format="dimension"/>
+        <attr name="startY" format="dimension"/>
+        <attr name="endX" format="dimension"/>
+        <attr name="endY" format="dimension"/>
+        <attr name="image" format="integer"/>
+        <attr name="startY_top" format="boolean"/>
+        <attr name="startY_bottom" format="boolean"/>
+        <attr name="startX_right" format="boolean"/>
+        <attr name="startX_left" format="boolean"/>
+        <attr name="startX_center_horizontal" format="boolean"/>
+        <attr name="startY_center_vertical" format="boolean"/>
+        <attr name="endY_top" format="boolean"/>
+        <attr name="endY_bottom" format="boolean"/>
+        <attr name="endX_right" format="boolean"/>
+        <attr name="endX_left" format="boolean"/>
+        <attr name="endX_center_horizontal" format="boolean"/>
+        <attr name="endY_center_vertical" format="boolean"/>
+        <attr name="show_layout_dev" format="boolean"/>
+        <attr name="dev_layout_height" format="dimension"/>
+        <attr name="dev_layout_width" format="dimension"/>
+    </declare-styleable>
+</resources>

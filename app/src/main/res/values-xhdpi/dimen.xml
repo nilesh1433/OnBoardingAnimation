@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="one_cloud_top">60dp</dimen>
+    <dimen name="one_wallet_top">3dp</dimen>
+    <dimen name="one_calendar_top">24dp</dimen>
+    <dimen name="second_cloud_top">15dp</dimen>
+    <dimen name="phone_bottom_margin">5dp</dimen>
+    <dimen name="second_cloud_margin_left">140dp</dimen>
+    <dimen name="chat_top_margin">45dp</dimen>
+    <dimen name="chat_right_margin">-30dp</dimen>
+    <dimen name="pin_top_margin">80dp</dimen>
+    <dimen name="pin_left_margin">-25dp</dimen>
+    <dimen name="msg_text_title">20sp</dimen>
+    <dimen name="msg_text_size">18sp</dimen>
+    <dimen name="msg_margin_bottom">5dp</dimen>
+    <dimen name="main_icon_margin_top">80dp</dimen>
+    <dimen name="page_two_element_top">110dp</dimen>
+    <dimen name="page_three_element_top">118dp</dimen>
+    <dimen name="spacing_between_lines">8dp</dimen>
+
+    <dimen name="splash_redbus_size">32sp</dimen>
+    <dimen name="splash_non_redbus_size">28sp</dimen>
+    <dimen name="redbus_icon_width">80dp</dimen>
+    <dimen name="redbus_icon_height">60dp</dimen>
+
+    <dimen name="page_two_cloud_endX">240dp</dimen>
+    <dimen name="page_two_cloud_endY">120dp</dimen>
+    <dimen name="page_two_phone_endX">100dp</dimen>
+    <dimen name="page_two_phone_endY">235dp</dimen>
+    <dimen name="page_two_suitcase_startY">100dp</dimen>
+    <dimen name="page_two_suitcase_endY">100dp</dimen>
+    <dimen name="page_two_elements_top">120dp</dimen>
+
+
+    <dimen name="page_one_cloud_endX">70dp</dimen>
+    <dimen name="page_one_cloud_endY">140dp</dimen>
+    <dimen name="page_one_calendar_endX">250dp</dimen>
+    <dimen name="page_one_calendar_endY">150dp</dimen>
+    <dimen name="page_one_wallet_endX">70dp</dimen>
+    <dimen name="page_one_wallet_endY">200dp</dimen>
+    <dimen name="page_one_seat_icon_startY">100dp</dimen>
+    <dimen name="page_one_seat_icon_endY">100dp</dimen>
+    <dimen name="page_one_elements_top">100dp</dimen>
+
+    <dimen name="page_three_chat_endX">255dp</dimen>
+    <dimen name="page_three_chat_endY">135dp</dimen>
+    <dimen name="page_three_pin_endX">95dp</dimen>
+    <dimen name="page_three_pin_endY">220dp</dimen>
+    <dimen name="page_three_phone_startY">100dp</dimen>
+    <dimen name="page_three_phone_endY">100dp</dimen>
+    <dimen name="page_three_elements_top">110dp</dimen>
+
+    <!-- wallet -->
+    <dimen name="er_star_margin_top">100dp</dimen>
+    <dimen name="er_wallet_icon_startY">105dp</dimen>
+    <dimen name="er_refund_coin_endX">195dp</dimen>
+    <dimen name="er_refund_coin_endY">155dp</dimen>
+    <dimen name="er_refund_arrow_endX">80dp</dimen>
+    <dimen name="er_refund_arrow_endY">170dp</dimen>
+
+    <dimen name="ec_star_margin_top">100dp</dimen>
+    <dimen name="ec_star_margin_left">155dp</dimen>
+    <dimen name="ec_cart_startY">105dp</dimen>
+    <dimen name="ec_tick_endX">180dp</dimen>
+    <dimen name="ec_tick_endY">255dp</dimen>
+    <dimen name="ec_right_speed_endX">220dp</dimen>
+    <dimen name="ec_right_speed_startY">145dp</dimen>
+    <dimen name="ec_left_speed_endX">115dp</dimen>
+    <dimen name="ec_left_speed_startY">205dp</dimen>
+
+    <dimen name="erew_star_margin_top">120dp</dimen>
+    <dimen name="erew_reward_icon_startY">105dp</dimen>
+    <dimen name="erew_rupee_endX">210dp</dimen>
+    <dimen name="erew_rupee_endY">95dp</dimen>
+    <dimen name="erew_speed_right_startY">210dp</dimen>
+    <dimen name="erew_speed_right_startX">230dp</dimen>
+    <dimen name="erew_speed_left_startY">185dp</dimen>
+    <dimen name="erew_speed_left_endX">107dp</dimen>
+
+</resources>
