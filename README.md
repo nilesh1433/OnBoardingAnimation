@@ -4,6 +4,20 @@ This library helps in animating drawables from its start position to its end pos
 
 Usage e.g - OnBoard Screen, Tutorial Screen
 
+<b>Gradle config</b>
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+  
+dependencies {
+          ....
+	        implementation 'com.github.nilesh1433:OnBoardingAnimation:master-SNAPSHOT'
+	}
+
+
 <b>Demo</b>
 
 [linkname] https://www.youtube.com/watch?v=B0sHqMcJkfQ
