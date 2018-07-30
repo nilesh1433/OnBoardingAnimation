@@ -6,14 +6,12 @@ Usage e.g - OnBoard Screen, Tutorial Screen
 
 <b>Gradle config</b>
 allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
+		repositories {<br/>
+			maven { url 'https://jitpack.io' }<br/>
 		}
 	}
   
-dependencies {
-          ....
+dependencies {<br/>
 	        implementation 'com.github.nilesh1433:OnBoardingAnimation:master-SNAPSHOT'
 	}
 
